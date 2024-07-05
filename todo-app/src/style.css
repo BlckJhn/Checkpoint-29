@@ -1,0 +1,35 @@
+/* src/styles.css */
+.app {
+    text-align: center;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .task span {
+    flex-grow: 1;
+  }
+  
+  .task input {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .task button {
+    margin-left: 5px;
+  }
+  
+  .task .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .filter-buttons button {
+    margin: 5px;
+  }
+  
